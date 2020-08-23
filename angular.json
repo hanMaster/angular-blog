@@ -5,9 +5,11 @@
   "projects": {
     "blog": {
       "projectType": "application",
-      "schematics": {"@schematics/angular:component": {
-        "styleext": "scss"
-      }},
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -121,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "blog"
+    }
+  },
+  "defaultProject": "blog",
+  "cli": {
+    "analytics": false
+  }
 }
